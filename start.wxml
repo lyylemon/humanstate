@@ -1,0 +1,22 @@
+<!--start.wxml-->
+
+
+
+<button class="btn1" bindtap="getDataFromOneNet">
+
+看门Doge(OneNet)</button>
+
+
+
+<radio-group class="radio-group" bindchange="radioChange">
+
+  <label style="display: flex"  wx:for="{{items}}">
+
+    <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+
+  </label>
+
+</radio-group>
+
+
+
